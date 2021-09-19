@@ -1,5 +1,5 @@
 pico-8 cartridge // http://www.pico-8.com
-version 32
+version 33
 __lua__
 --pppppp power up !
 --by mokonanico
@@ -229,6 +229,7 @@ function update_menu()
 	if start_time != -1 and 
 				time() > start_time then
 		state=1
+		music(0)
 	end
 end
 
@@ -626,8 +627,8 @@ __music__
 00 0d0e1044
 00 0d0e1044
 00 0d0e1051
-00 0d0e1019
-00 0d0e101a
-00 0d0e101b
+00 0d0e5019
+00 0d0e501a
+00 0d0e501b
 02 0d0e1044
 
