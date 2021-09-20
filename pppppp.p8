@@ -6,9 +6,11 @@ __lua__
 
 
 --to do list :
+--collectible
 --level design
---music
---end title ???
+--music end title
+--end title with time + collec
+--exit
 
 //0 -> menu
 //1 -> in game
